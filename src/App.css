@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,53 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+
+* {
+  padding :0;
+  margin:0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+
+}
+a {
+  text-decoration: none !important;
+}
+
+:root {
+  --primary-white : #fff;
+  --primary-black : #333;
+  --primary-navbar : #bdf7f7;
+  --primary-navy : #021E39;
+  --primary-orange : #F9ab00;
+  --primary-green : #2FC64C;
+  --primary-custom-green:#B5FAC7;
+  --primary-alt-white:#fff;
+}
+
+body {
+  
+  font-family: 'Roboto condensed', sans-serif !important;
+  overflow-x:hidden;
+
+}
+
+body::-webkit-scrollbar {
+  width:6.4px;
+
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--primary-white);
+  
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--primary-purple);
+  border-radius: 8px;
+  
 }
