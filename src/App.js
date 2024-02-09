@@ -1,13 +1,22 @@
 
 import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
-import Layout from './components/Layout/Layout';
+import Routed from './components/Routes/Routed';
+
+// import Layout from './components/Layout/Layout';
 
 function App() {
+  const renderApp = () =>{
+
+  return (
+    <Routed />
+  )
+  }
+  
   return (
     <div className="App">
       
-     <Layout />
+     {renderApp()}
     </div>
   );
 }
